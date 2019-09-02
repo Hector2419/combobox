@@ -42,7 +42,7 @@
             "Viernes ",
             "Sábado ",
             "Domingo"});
-            this.cb1.Location = new System.Drawing.Point(29, 25);
+            this.cb1.Location = new System.Drawing.Point(53, 23);
             this.cb1.Name = "cb1";
             this.cb1.Size = new System.Drawing.Size(386, 21);
             this.cb1.TabIndex = 0;
