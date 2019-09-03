@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.atras = new System.Windows.Forms.Button();
-            this.link = new System.Windows.Forms.TextBox();
-            this.ir = new System.Windows.Forms.Button();
-            this.agregarfavoritos = new System.Windows.Forms.Button();
             this.seleccionarfavoritos = new System.Windows.Forms.ComboBox();
+            this.agregarfavoritos = new System.Windows.Forms.Button();
+            this.ir = new System.Windows.Forms.Button();
+            this.link = new System.Windows.Forms.TextBox();
+            this.atras = new System.Windows.Forms.Button();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,43 +48,17 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(804, 100);
+            this.panel1.Size = new System.Drawing.Size(804, 102);
             this.panel1.TabIndex = 0;
             // 
-            // webBrowser1
+            // seleccionarfavoritos
             // 
-            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser1.Location = new System.Drawing.Point(0, 100);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(804, 355);
-            this.webBrowser1.TabIndex = 1;
-            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.WebBrowser1_DocumentCompleted);
-            // 
-            // atras
-            // 
-            this.atras.Location = new System.Drawing.Point(27, 41);
-            this.atras.Name = "atras";
-            this.atras.Size = new System.Drawing.Size(75, 23);
-            this.atras.TabIndex = 0;
-            this.atras.Text = "Atrás";
-            this.atras.UseVisualStyleBackColor = true;
-            // 
-            // link
-            // 
-            this.link.Location = new System.Drawing.Point(154, 44);
-            this.link.Name = "link";
-            this.link.Size = new System.Drawing.Size(232, 20);
-            this.link.TabIndex = 1;
-            // 
-            // ir
-            // 
-            this.ir.Location = new System.Drawing.Point(414, 41);
-            this.ir.Name = "ir";
-            this.ir.Size = new System.Drawing.Size(75, 23);
-            this.ir.TabIndex = 2;
-            this.ir.Text = "ir";
-            this.ir.UseVisualStyleBackColor = true;
+            this.seleccionarfavoritos.FormattingEnabled = true;
+            this.seleccionarfavoritos.Location = new System.Drawing.Point(606, 44);
+            this.seleccionarfavoritos.Name = "seleccionarfavoritos";
+            this.seleccionarfavoritos.Size = new System.Drawing.Size(113, 21);
+            this.seleccionarfavoritos.TabIndex = 4;
+            this.seleccionarfavoritos.SelectedIndexChanged += new System.EventHandler(this.Seleccionarfavoritos_SelectedIndexChanged);
             // 
             // agregarfavoritos
             // 
@@ -94,14 +68,46 @@
             this.agregarfavoritos.TabIndex = 3;
             this.agregarfavoritos.Text = "Agregar a favoritos";
             this.agregarfavoritos.UseVisualStyleBackColor = true;
+            this.agregarfavoritos.Click += new System.EventHandler(this.Agregarfavoritos_Click);
             // 
-            // seleccionarfavoritos
+            // ir
             // 
-            this.seleccionarfavoritos.FormattingEnabled = true;
-            this.seleccionarfavoritos.Location = new System.Drawing.Point(606, 44);
-            this.seleccionarfavoritos.Name = "seleccionarfavoritos";
-            this.seleccionarfavoritos.Size = new System.Drawing.Size(113, 21);
-            this.seleccionarfavoritos.TabIndex = 4;
+            this.ir.Location = new System.Drawing.Point(414, 41);
+            this.ir.Name = "ir";
+            this.ir.Size = new System.Drawing.Size(75, 23);
+            this.ir.TabIndex = 2;
+            this.ir.Text = "ir";
+            this.ir.UseVisualStyleBackColor = true;
+            this.ir.Click += new System.EventHandler(this.Ir_Click);
+            // 
+            // link
+            // 
+            this.link.Location = new System.Drawing.Point(154, 44);
+            this.link.Name = "link";
+            this.link.Size = new System.Drawing.Size(232, 20);
+            this.link.TabIndex = 1;
+            this.link.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Link_KeyDown);
+            this.link.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Link_KeyPress);
+            // 
+            // atras
+            // 
+            this.atras.Location = new System.Drawing.Point(27, 41);
+            this.atras.Name = "atras";
+            this.atras.Size = new System.Drawing.Size(75, 23);
+            this.atras.TabIndex = 0;
+            this.atras.Text = "Atrás";
+            this.atras.UseVisualStyleBackColor = true;
+            this.atras.Click += new System.EventHandler(this.Atras_Click);
+            // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser1.Location = new System.Drawing.Point(0, 102);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(804, 353);
+            this.webBrowser1.TabIndex = 1;
+            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.WebBrowser1_DocumentCompleted);
             // 
             // Form1
             // 
