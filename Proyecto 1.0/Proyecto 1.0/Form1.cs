@@ -19,6 +19,20 @@ namespace Proyecto_1._0
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            comboBox1.Items.Add("Dollar");
+            comboBox1.Items.Add("Mexican Peso");
+            comboBox1.Items.Add("Euro");
+            comboBox1.Items.Add("Yen");
+            comboBox1.Items.Add("Soles");
+            comboBox1.Items.Add("Rupias");
+            comboBox1.Items.Add("Libra");
+            comboBox2.Items.Add("Dollar");
+            comboBox2.Items.Add("Mexican Peso");
+            comboBox2.Items.Add("Euro");
+            comboBox2.Items.Add("Yen");
+            comboBox2.Items.Add("Soles");
+            comboBox2.Items.Add("Rupias");
+            comboBox2.Items.Add("Libra");
 
         }
 
