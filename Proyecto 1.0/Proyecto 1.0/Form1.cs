@@ -7,16 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace Proyecto_1._0
 {
+
     public partial class Form1 : Form
     {
+        double coin, result;
+        string op;
         public Form1()
         {
             InitializeComponent();
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             comboBox1.Items.Add("Dollar");
@@ -33,7 +34,6 @@ namespace Proyecto_1._0
             comboBox2.Items.Add("Soles");
             comboBox2.Items.Add("Rupias");
             comboBox2.Items.Add("Libra");
-
         }
 
         private void ArchivoToolStripMenuItem_Click(object sender, EventArgs e)
