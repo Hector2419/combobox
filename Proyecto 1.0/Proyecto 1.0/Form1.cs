@@ -34,6 +34,13 @@ namespace Proyecto_1._0
             comboBox2.Items.Add("Soles PEN");
             comboBox2.Items.Add("Rupias INR");
             comboBox2.Items.Add("Libra GBP");
+            comboBox1.Items.Add("Quetzal GTQ");
+            comboBox2.Items.Add("Quetzal GTQ");
+            comboBox1.Items.Add("Colombian peso COP");
+            comboBox2.Items.Add("Colombian peso COP");
+            comboBox1.Items.Add("Bolivars BOB");
+            comboBox2.Items.Add("Bolivars BOB");
+
         }
 
         private void ArchivoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -116,6 +123,30 @@ namespace Proyecto_1._0
                     textBox2.Text = result;
                     textBox3.Text = "1 ---> " + o;
                 }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 7.68075;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 3365.41;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 6.90516;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
             }
             else if (coin == "Mexican Peso MXN")
             {
@@ -168,6 +199,30 @@ namespace Proyecto_1._0
                 else if (op == "Libra GBP")
                 {
                     o = 0.0415030;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 0.395351;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 173.175;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 0.355286;
                     res = n * o;
                     result = res.ToString();
                     textBox2.Text = result;
@@ -230,6 +285,30 @@ namespace Proyecto_1._0
                     textBox2.Text = result;
                     textBox3.Text = "1 ---> " + o;
                 }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 8.49866;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 3724.04;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 7.64082;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
             }
             else if (coin == "Yen JPY")
             {
@@ -282,6 +361,30 @@ namespace Proyecto_1._0
                 else if (op == "Libra GBP")
                 {
                     o = 0.007529;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 0.0710064;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 31.1200;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 0.063885;
                     res = n * o;
                     result = res.ToString();
                     textBox2.Text = result;
@@ -344,6 +447,30 @@ namespace Proyecto_1._0
                     textBox2.Text = result;
                     textBox3.Text = "1 ---> " + o;
                 }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 2.31031;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 1012.31;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 2.07702;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
             }
             else if (coin == "Rupias INR")
             {
@@ -396,6 +523,30 @@ namespace Proyecto_1._0
                 else if (op == "Libra GBP")
                 {
                     o = 0.0112627;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 0.08214;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 47.4069;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 0.0972411;
                     res = n * o;
                     result = res.ToString();
                     textBox2.Text = result;
@@ -458,9 +609,275 @@ namespace Proyecto_1._0
                     textBox2.Text = result;
                     textBox3.Text = "1 ---> 1";
                 }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 9.47663;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 4152.26;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 8.51800;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+            }
+            else if (coin == "Quetzal GTQ")
+            {
+                if (op == "Dollar USD")
+                {
+                    o = 0.130196;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Mexican Peso MXN")
+                {
+                    o = 2.53121;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Euro EUR")
+                {
+                    o = 0.117665;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Yen JPY")
+                {
+                    o = 14.0805;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Soles PEN")
+                {
+                    o = 0.432843;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Rupias INR")
+                {
+                    o = 9.24152;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Libra GBP")
+                {
+                    o = 0.105518;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Quetzal GTQ")
+                {
+                    result = n.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> 1";
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 438.184;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 0.899022;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+            }
+            else if (coin == "Colombian peso COP")
+            {
+                if (op == "Dollar USD")
+                {
+                    o = 0.000297140;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Mexican Peso MXN")
+                {
+                    o = 0.00577450;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Euro EUR")
+                {
+                    o = 0.000268526;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Yen JPY")
+                {
+                    o = 0.0321337;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Soles PEN")
+                {
+                    o = 0.000987838;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Rupias INR")
+                {
+                    o = 0.0210940;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Libra GBP")
+                {
+                    o = 0.000240833;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 0.00228214;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    result = n.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> 1";
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 0.00205186;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+            }
+            else if (coin == "Bolivars BOB")
+            {
+                if (op == "Dollar USD")
+                {
+                    o = 0.144819;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Mexican Peso MXN")
+                {
+                    o = 2.81463;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Euro EUR")
+                {
+                    o = 0.130876;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Yen JPY")
+                {
+                    o = 15.6531;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Soles PEN")
+                {
+                    o = 0.481459;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Rupias INR")
+                {
+                    o = 10.2837;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Libra GBP")
+                {
+                    o = 0.117398;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 1.11232;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 487.362;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    result = n.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> 1";
+                }
             }
         }
-
         private void Button1_Click(object sender, EventArgs e)
         {
             double o, res;
@@ -524,6 +941,30 @@ namespace Proyecto_1._0
                     textBox2.Text = result;
                     textBox3.Text = "1 ---> " + o;
                 }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 7.68075;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 3365.41;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 6.90516;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
             }
             else if (coin == "Mexican Peso MXN")
             {
@@ -576,6 +1017,30 @@ namespace Proyecto_1._0
                 else if (op == "Libra GBP")
                 {
                     o = 0.0415030;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 0.395351;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 173.175;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 0.355286;
                     res = n * o;
                     result = res.ToString();
                     textBox2.Text = result;
@@ -638,6 +1103,30 @@ namespace Proyecto_1._0
                     textBox2.Text = result;
                     textBox3.Text = "1 ---> " + o;
                 }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 8.49866;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 3724.04;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 7.64082;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
             }
             else if (coin == "Yen JPY")
             {
@@ -690,6 +1179,30 @@ namespace Proyecto_1._0
                 else if (op == "Libra GBP")
                 {
                     o = 0.007529;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 0.0710064;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 31.1200;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 0.063885;
                     res = n * o;
                     result = res.ToString();
                     textBox2.Text = result;
@@ -752,6 +1265,30 @@ namespace Proyecto_1._0
                     textBox2.Text = result;
                     textBox3.Text = "1 ---> " + o;
                 }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 2.31031;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 1012.31;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 2.07702;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
             }
             else if (coin == "Rupias INR")
             {
@@ -809,6 +1346,30 @@ namespace Proyecto_1._0
                     textBox2.Text = result;
                     textBox3.Text = "1 ---> " + o;
                 }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 0.08214;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 47.4069;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 0.0972411;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
             }
             else if (coin == "Libra GBP")
             {
@@ -861,6 +1422,273 @@ namespace Proyecto_1._0
                     textBox3.Text = "1 ---> " + o;
                 }
                 else if (op == "Libra GBP")
+                {
+                    result = n.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> 1";
+                }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 9.47663;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 4152.26;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 8.51800;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+            }
+            else if (coin == "Quetzal GTQ")
+            {
+                if (op == "Dollar USD")
+                {
+                    o = 0.130196;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Mexican Peso MXN")
+                {
+                    o = 2.53121;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Euro EUR")
+                {
+                    o = 0.117665;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Yen JPY")
+                {
+                    o = 14.0805;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Soles PEN")
+                {
+                    o = 0.432843;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Rupias INR")
+                {
+                    o = 9.24152;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Libra GBP")
+                {
+                    o = 0.105518;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> "+ o;
+                }
+                else if (op == "Quetzal GTQ")
+                {
+                    result = n.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> 1";
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 438.184;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 0.899022;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+            }
+            else if (coin == "Colombian peso COP")
+            {
+                if (op == "Dollar USD")
+                {
+                    o = 0.000297140;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Mexican Peso MXN")
+                {
+                    o = 0.00577450;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Euro EUR")
+                {
+                    o = 0.000268526;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Yen JPY")
+                {
+                    o = 0.0321337;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Soles PEN")
+                {
+                    o = 0.000987838;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Rupias INR")
+                {
+                    o = 0.0210940;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Libra GBP")
+                {
+                    o = 0.000240833;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 0.00228214;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    result = n.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> 1";
+                }
+                else if (op == "Bolivars BOB")
+                {
+                    o = 0.00205186;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+            }
+            else if (coin == "Bolivars BOB")
+            {
+                if (op == "Dollar USD")
+                {
+                    o = 0.144819;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Mexican Peso MXN")
+                {
+                    o = 2.81463;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Euro EUR")
+                {
+                    o = 0.130876;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Yen JPY")
+                {
+                    o = 15.6531;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Soles PEN")
+                {
+                    o = 0.481459;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Rupias INR")
+                {
+                    o = 10.2837;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Libra GBP")
+                {
+                    o = 0.117398;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Quetzal GTQ")
+                {
+                    o = 1.11232;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Colombian peso COP")
+                {
+                    o = 487.362 ;
+                    res = n * o;
+                    result = res.ToString();
+                    textBox2.Text = result;
+                    textBox3.Text = "1 ---> " + o;
+                }
+                else if (op == "Bolivars BOB")
                 {
                     result = n.ToString();
                     textBox2.Text = result;
