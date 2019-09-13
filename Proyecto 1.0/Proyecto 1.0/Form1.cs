@@ -1048,6 +1048,18 @@ namespace Proyecto_1._0
                 }
             }
         }
+
+        private void LinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            MessageBox.Show("You can send an email to the following email address.\nPrices@ucol.mx ");
+         
+        }
+
+        private void AboutUsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Creators:\n Ana Julia Carrizales Garcia\n Angelina Nohemi Colazo Medrano\n Nelsy Andrea Marical Flores\n Ashley Itzel Monroy Rivera\n Diana Lizbeth Orbe Sanchez\n Diana Lizeth Vargas Velazques\n Saul Benitez Silva\n Hector Francisco Cazadero Garduño\n                          3B");
+        }
+
         private void Button1_Click(object sender, EventArgs e)
         {
             double o, res;
@@ -2035,7 +2047,6 @@ namespace Proyecto_1._0
                 }
             }
         }
-
         private void ComboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             
