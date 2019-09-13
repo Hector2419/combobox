@@ -1060,6 +1060,11 @@ namespace Proyecto_1._0
             MessageBox.Show("Creators:\n Ana Julia Carrizales Garcia\n Angelina Nohemi Colazo Medrano\n Nelsy Andrea Marical Flores\n Ashley Itzel Monroy Rivera\n Diana Lizbeth Orbe Sanchez\n Diana Lizeth Vargas Velazques\n Saul Benitez Silva\n Hector Francisco Cazadero Garduño\n                          3B");
         }
 
+        private void CloseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
         private void Button1_Click(object sender, EventArgs e)
         {
             double o, res;
